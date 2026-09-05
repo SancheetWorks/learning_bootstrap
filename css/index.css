@@ -1,0 +1,67 @@
+.navbar {
+    background-color:rgb(167, 132, 85);
+}
+
+.nav-item:hover{
+    background-color: black;
+    color: white;
+}
+.h1 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.bg_color{
+    background-color: rgb(167, 132, 85);
+}
+
+.bgcolor{
+    background-color: burlywood;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+.card:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+}
+
+.active{
+    background-color: black;
+    color: white !important;
+}
+
+.bs_description{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(167, 132, 85);
+}
+
+.list_style{
+    list-style: none;
+    display: contents;
+    text-align: center;
+}
+/* 
+.hf_color{
+    background-color: black !important;
+    color: white !important;
+} */
