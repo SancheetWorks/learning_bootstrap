@@ -9,25 +9,12 @@
             rel="stylesheet"
             integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
             crossorigin="anonymous">
-            <style>
-                .navbar{
-                    background-color: rgb(167, 132, 85);
-                }
-
-                .h1{
-                    padding-top: 10px;
-                    display: flex;
-                    justify-content: center;
-                }
-                body{
-                    background-color: burlywood;
-                }
-            </style>
+        <link href="css/index.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <!-- header start -->
         <header>
-            <nav class="navbar navbar-expand-lg" >
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img src="images/logo.png"
                             alt="logo" width="65px" /> Table Bite</a>
@@ -41,7 +28,7 @@
                     <div class="collapse navbar-collapse"
                         id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item ">
+                            <li class="nav-item">
                                 <a class="nav-link active" aria-current="page"
                                     href="index.html">Home</a>
                             </li>
@@ -90,117 +77,6 @@
         <!-- header end -->
 
         <!-- section start -->
-        <!-- <section>
-            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
-                <div class="carousel-indicators">
-                    <button type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="0" class="active" aria-current="true"
-                        aria-label="Slide 1"></button>
-                    <button type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    <button type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    <button type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="5" aria-label="Slide 6"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/BBK biryani.png" class="d-block w-100"
-                            alt="BBK biryani">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>BBK - Chicken Hyderabadi Dum Biryani</h5>
-                            <p>Fragrant basmati rice and tender chicken
-                                slow-cooked together with aromatic spices in the
-                                traditional Hyderabadi dum style for a rich,
-                                flavorful biryani</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/chinese.png" class="d-block w-100"
-                            alt="Chinese noodles">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Fountain - Chinese Schezwan Noodles</h5>
-                            <p>Stir-fried noodles tossed with spicy Schezwan
-                                sauce, crunchy vegetables, and aromatic
-                                seasonings for a bold, fiery Indo-Chinese
-                                flavour.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/wow momo.png" class="d-block w-100"
-                            alt="momos">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>WOW! Momos - Chicken Darjeeling Momo</h5>
-                            <p>Steamed momos filled with juicy, flavorful
-                                chicken, inspired by the traditional
-                                Darjeeling-style momo and served with a spicy,
-                                tangy dipping sauce.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/Domino.png" class="d-block w-100"
-                            alt="Pizza">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Domino's - Farmhouse Pizza</h5>
-                            <p>A delicious vegetarian pizza loaded with fresh
-                                onions, capsicum, mushrooms, and juicy tomatoes,
-                                topped with flavorful cheese and Domino’s
-                                signature sauces.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/little italy pasta.png"
-                            class="d-block w-100" alt="Pasta">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Little Italy - Pasta Al Sole Di Sicilia</h5>
-                            <p>A delicious Italian pasta inspired by the
-                                flavours of Sicily, tossed in a rich, creamy
-                                sauce with fresh vegetables and aromatic herbs
-                                for a comforting Mediterranean taste.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/KFC 8.3.png" class="d-block w-100"
-                            alt="Burger">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>KFC - Classic Zinger Burger</h5>
-                            <p>A crispy, spicy chicken fillet layered with fresh
-                                lettuce and creamy mayonnaise, served in a soft,
-                                toasted bun for a deliciously satisfying
-                                bite.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"
-                        aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon"
-                        aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section> -->
-        <!-- section end -->
-         <section>
-            <h1>Best Sellers</h1>
-         </section>
         <section>
             <div id="carouselExampleCaptions"
                 class="carousel slide carousel-fade"
@@ -334,7 +210,175 @@
                 </button>
 
             </div>
+            <h1 class="bs_description">Best Sellers</h1>
         </section>
+        <!-- section end -->
+
+        <!-- About Us starts -->
+        <section class="mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/logo.png" alt="Logo - Table Bite"
+                            class="img-fluid" />
+                    </div>
+                    <div class="col-md-8 pt-4">
+                        <h3>About Us</h3>
+                        <p>Welcome to Table Bite, your easy and convenient way
+                            to
+                            enjoy food at the food court. Simply scan the QR
+                            code at your table, explore the menu, place your
+                            order, and enjoy your meal without waiting in line.
+                            We make dining faster, easier, and more
+                            enjoyable.
+                        </p>
+                        <p>
+                            Our goal is to connect customers, restaurants, and
+                            technology in one seamless platform. Table Bite
+                            brings multiple food outlets together, making it
+                            easier for customers to discover different cuisines
+                            and enjoy a convenient dining experience.
+                        </p>
+                        <form class="mt-3 align">
+                            <a href="about_us.html">
+                                <button class="btn btn-dark text-white"
+                                    type="button">More
+                                    About Us
+                                </button>
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Us ends -->
+
+        <!-- Available Restaurant starts -->
+        <section class="p-4 mt-5 bg_color">
+            <h1 class="pb-3">Restaurants in Food Court:</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Dominos logo.png"
+                                class="card-img-top"
+                                alt="Dominos logo">
+                            <div class="card-body">
+                                <h5 class="card-title">Domino's</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/McD logo.png" class="card-img-top"
+                                alt="McD logo">
+                            <div class="card-body">
+                                <h5 class="card-title">McDoland's</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/kfc logo.png" class="card-img-top"
+                                alt="KFC logo">
+                            <div class="card-body">
+                                <h5 class="card-title">KFC</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/little Italy logo.png"
+                                class="card-img-top"
+                                alt="little Italy">
+                            <div class="card-body">
+                                <h5 class="card-title">little Italy</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="mt-3 align">
+                <a href="resturant.html ">
+                    <button class="btn bgcolor" type="button">More Restaurants
+                    </button>
+                </a>
+            </form>
+        </section>
+        <!-- Available Restaurant ends -->
+
+        <!-- footer starts -->
+        <footer>
+            <section class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="images/logo.png"
+                                            alt="Table Bite - Logo"
+                                            class="img-fluid pb-3">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p>Discover your
+                                            favorite restaurants, place orders
+                                            effortlessly, and enjoy great food
+                                            without the
+                                            wait.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h4 class="align">Quick Links</h4>
+                            <ul class="list_style">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="resturant.html">Resturants</a></li>
+                                <li><a href="my_order.html">My Orders</a></li>
+                                <li><a href="about_us.html">About Us</a></li>
+                                <li><a href="contact_us.html">Contact
+                                        Us</a></li>
+                                <li><a href="log_in.html">Log in</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h4 class="align">Address</h4>
+                            <p>7th Floor, Office No. 704 to 707, Bramha Premio
+                                (or adjacent commercial spaces), Pimpri,
+                                Pune.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h4 class="align">Contact Us</h4>
+                            <ul class="list_style">
+                                <li><a
+                                        href="https://www.instagram.com/">Instagram</a></li>
+                                <li><a
+                                        href="https://www.linkedin.com/">linkedin</a></li>
+                                <li><a
+                                        href="https://maps.app.goo.gl/TKPCgPG77eALCs3F9"></a>Location</li>
+                                <li><a
+                                        href="https://www.facebook.com/">Facebook</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <!-- footer ends -->
+
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
