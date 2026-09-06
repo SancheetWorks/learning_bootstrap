@@ -39,7 +39,7 @@ body {
 .card:hover{
     background-color: black;
     color: white;
-    border-radius: 10%;
+    border-radius: 10% !important;
 }
 
 .active{
@@ -51,7 +51,7 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgb(167, 132, 85);
 }
 
@@ -65,3 +65,14 @@ body {
     background-color: black !important;
     color: white !important;
 } */
+
+.heading_design{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.font_size{
+    font-size: 20px;
+}
