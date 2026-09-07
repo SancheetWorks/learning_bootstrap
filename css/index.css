@@ -3,7 +3,7 @@
 }
 
 .nav-item:hover{
-    background-color: black;
+    background-color: #fe6901;
     color: white;
 }
 .h1 {
@@ -29,22 +29,30 @@ body {
     justify-content: center;
 }
 
-.nav-link:hover{
-    background-color: black;
-    color: white;
-    border: 2px solid white;
-    border-radius: 10%;
+/* .nav-link:hover{
+    background-color: #fe6901;
+    color: black;
+    border: 2px solid black;
+    border-radius: 40px;
+} */
+.nav-item:hover{
+    background-color: #fe6901;
+    color: black;
+    border: 2px solid black;
+    border-radius: 40px;
 }
 
 .card:hover{
     background-color: black;
     color: white;
-    border-radius: 10% !important;
+    border-radius: 10%;
 }
 
 .active{
-    background-color: black;
-    color: white !important;
+    background-color: #fe6901;
+    color: black !important;
+    border: 2px solid black;
+    border-radius: 10%;
 }
 
 .bs_description{
@@ -76,3 +84,4 @@ body {
 .font_size{
     font-size: 20px;
 }
+
