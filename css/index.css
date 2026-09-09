@@ -46,6 +46,9 @@ body {
     background-color: black;
     color: white;
     border-radius: 10%;
+    overflow: hidden;
+    transition: 0.3s;
+    transform: translateY(-8px);
 }
 
 .active{
@@ -170,6 +173,7 @@ body {
 
 .deal-card:hover {
     transform: translateY(-8px);
+    color: white;
 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
@@ -228,7 +232,7 @@ body {
 /* ================= LIMITED TIME ================= */
 
 .limited-section {
-    background-color: #ffc107;
+    background-color: rgb(167, 132, 85);
 }
 
 .countdown-box {
