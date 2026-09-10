@@ -10,6 +10,8 @@
             integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
             crossorigin="anonymous">
         <link href="css/index.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     </head>
     <body>
         <!-- header start -->
@@ -195,22 +197,13 @@
 
                     <!-- DEAL 1 -->
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-md-4 pb-4">
 
-                        <div class="card deal-card h-100">
+                        <div class="card">
 
-                            <div class="position-relative">
-
-                                <img
-                                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
-                                    class="card-img-top"
-                                    alt="Burger">
-
-                                <span class="discount-badge">
-                                    25% OFF
-                                </span>
-
-                            </div>
+                            <img
+                                src="images/todays_deal/Classic Burger Deal.png"card-img-top"
+                                alt="Burger">
 
                             <div class="card-body">
 
@@ -218,37 +211,42 @@
                                     Burger
                                 </span>
 
-                                <h4 class="card-title mt-2">
+                                <h5 class="card-title mt-2">
                                     Classic Burger Deal
-                                </h4>
+                                </h5>
 
-                                <p class="card-text text-muted">
-                                    Juicy chicken burger served with
-                                    crispy
-                                    fries and a refreshing soft
-                                    drink.
+                                <p class="card-text">
+                                    Juicy chicken burger served with crispy
+                                    fries
+                                    and a refreshing soft drink.
                                 </p>
 
-                                <div class="price">
-
-                                    <span class="old-price">
+                                <p>
+                                    <span
+                                        style="text-decoration: line-through; color: red;">
                                         ₹299
                                     </span>
 
-                                    <span class="new-price">
+                                    <strong
+                                        style="color: green; font-size: 20px;">
                                         ₹224
-                                    </span>
+                                    </strong>
+                                </p>
 
-                                </div>
-
-                                <p class="small text-danger">
+                                <p class="text-danger">
                                     <i class="bi bi-clock"></i>
                                     Available Today Only
                                 </p>
 
-                                <button class="btn btn-dark w-100">
+                                <!-- Button trigger modal -->
+                                <button type="button"
+                                    class="btn button_color button_hover"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#burgerDeal">
+
                                     <i class="bi bi-cart-plus"></i>
                                     Order Now
+
                                 </button>
 
                             </div>
@@ -259,22 +257,14 @@
 
                     <!-- DEAL 2 -->
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-md-4 pb-4">
 
-                        <div class="card deal-card h-100">
+                        <div class="card">
 
-                            <div class="position-relative">
-
-                                <img
-                                    src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=800&q=80"
-                                    class="card-img-top"
-                                    alt="Pizza">
-
-                                <span class="discount-badge">
-                                    20% OFF
-                                </span>
-
-                            </div>
+                            <img
+                                src="images/todays_deal/pizza deal.png"
+                                class="card-img-top"
+                                alt="Pizza">
 
                             <div class="card-body">
 
@@ -282,36 +272,41 @@
                                     Pizza
                                 </span>
 
-                                <h4 class="card-title mt-2">
+                                <h5 class="card-title mt-2">
                                     Pizza Party Deal
-                                </h4>
+                                </h5>
 
-                                <p class="card-text text-muted">
-                                    Delicious medium pizza with
-                                    garlic bread
+                                <p class="card-text">
+                                    Delicious medium pizza with garlic bread
                                     and two chilled soft drinks.
                                 </p>
 
-                                <div class="price">
-
-                                    <span class="old-price">
+                                <p>
+                                    <span
+                                        style="text-decoration: line-through; color: red;">
                                         ₹599
                                     </span>
 
-                                    <span class="new-price">
+                                    <strong
+                                        style="color: green; font-size: 20px;">
                                         ₹479
-                                    </span>
+                                    </strong>
+                                </p>
 
-                                </div>
-
-                                <p class="small text-danger">
+                                <p class="text-danger">
                                     <i class="bi bi-clock"></i>
                                     Available Today Only
                                 </p>
 
-                                <button class="btn btn-dark w-100">
+                                <!-- Button trigger modal -->
+                                <button type="button"
+                                    class="btn button_color button_hover"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#pizzaDeal">
+
                                     <i class="bi bi-cart-plus"></i>
                                     Order Now
+
                                 </button>
 
                             </div>
@@ -322,60 +317,56 @@
 
                     <!-- DEAL 3 -->
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-md-4 pb-4">
 
-                        <div class="card deal-card h-100">
+                        <div class="card">
 
-                            <div class="position-relative">
+                            <img
+                                src="images/todays_deal/Chicken Feast.png"
+                                class="card-img-top"
+                                alt="Fried Chicken">
 
-                                <img
-                                    src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?auto=format&fit=crop&w=800&q=80"
-                                    class="card-img-top"
-                                    alt="Fried Chicken">
-
-                                <span class="discount-badge">
-                                    30% OFF
-                                </span>
-
-                            </div>
-
-                            <div class="card">
+                            <div class="card-body">
 
                                 <span class="badge bg-secondary">
                                     Chicken
                                 </span>
 
-                                <h4 class="card-title mt-2">
+                                <h5 class="card-title mt-2">
                                     Chicken Feast
-                                </h4>
+                                </h5>
 
                                 <p class="card-text">
-                                    Crispy fried chicken served with
-                                    fries,
-                                    nuggets and a refreshing
-                                    beverage.
+                                    Crispy fried chicken served with fries,
+                                    nuggets and a refreshing beverage.
                                 </p>
 
-                                <div class="price">
-
-                                    <span class="old-price">
+                                <p>
+                                    <span
+                                        style="text-decoration: line-through; color: red;">
                                         ₹449
                                     </span>
 
-                                    <span class="new-price">
+                                    <strong
+                                        style="color: green; font-size: 20px;">
                                         ₹314
-                                    </span>
+                                    </strong>
+                                </p>
 
-                                </div>
-
-                                <p class="small text-danger">
+                                <p class="text-danger">
                                     <i class="bi bi-clock"></i>
                                     Available Today Only
                                 </p>
 
-                                <button class="btn btn-dark w-100">
+                                <!-- Button trigger modal -->
+                                <button type="button"
+                                    class="btn button_color button_hover"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#chickenDeal">
+
                                     <i class="bi bi-cart-plus"></i>
                                     Order Now
+
                                 </button>
 
                             </div>
@@ -386,22 +377,14 @@
 
                     <!-- DEAL 4 -->
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-md-4 pb-4">
 
-                        <div class="card deal-card h-100">
+                        <div class="card">
 
-                            <div class="position-relative">
-
-                                <img
-                                    src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=800&q=80"
-                                    class="card-img-top"
-                                    alt="Tacos">
-
-                                <span class="discount-badge">
-                                    15% OFF
-                                </span>
-
-                            </div>
+                            <img
+                                src="images/todays_deal/Taco Tuesday Deal.png"
+                                class="card-img-top"
+                                alt="Tacos">
 
                             <div class="card-body">
 
@@ -409,36 +392,41 @@
                                     Mexican
                                 </span>
 
-                                <h4 class="card-title mt-2">
+                                <h5 class="card-title mt-2">
                                     Taco Tuesday Deal
-                                </h4>
+                                </h5>
 
-                                <p class="card-text text-muted">
-                                    Enjoy three delicious tacos with
-                                    crispy
+                                <p class="card-text">
+                                    Enjoy three delicious tacos with crispy
                                     nachos and a chilled beverage.
                                 </p>
 
-                                <div class="price">
-
-                                    <span class="old-price">
+                                <p>
+                                    <span
+                                        style="text-decoration: line-through; color: red;">
                                         ₹349
                                     </span>
 
-                                    <span class="new-price">
+                                    <strong
+                                        style="color: green; font-size: 20px;">
                                         ₹297
-                                    </span>
+                                    </strong>
+                                </p>
 
-                                </div>
-
-                                <p class="small text-danger">
+                                <p class="text-danger">
                                     <i class="bi bi-clock"></i>
                                     Available Today Only
                                 </p>
 
-                                <button class="btn btn-dark w-100">
+                                <!-- Button trigger modal -->
+                                <button type="button"
+                                    class="btn button_color button_hover"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#tacoDeal">
+
                                     <i class="bi bi-cart-plus"></i>
                                     Order Now
+
                                 </button>
 
                             </div>
@@ -449,22 +437,14 @@
 
                     <!-- DEAL 5 -->
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-md-4 pb-4">
 
-                        <div class="card deal-card h-100">
+                        <div class="card">
 
-                            <div class="position-relative">
-
-                                <img
-                                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
-                                    class="card-img-top"
-                                    alt="Chocolate Cake">
-
-                                <span class="discount-badge">
-                                    20% OFF
-                                </span>
-
-                            </div>
+                            <img
+                                src="images/todays_deal/Chocolate Dessert Deal.png"
+                                class="card-img-top"
+                                alt="Chocolate Cake">
 
                             <div class="card-body">
 
@@ -472,36 +452,41 @@
                                     Dessert
                                 </span>
 
-                                <h4 class="card-title mt-2">
+                                <h5 class="card-title mt-2">
                                     Chocolate Dessert Deal
-                                </h4>
+                                </h5>
 
-                                <p class="card-text text-muted">
-                                    Rich chocolate cake served with
-                                    a scoop
+                                <p class="card-text">
+                                    Rich chocolate cake served with a scoop
                                     of creamy vanilla ice cream.
                                 </p>
 
-                                <div class="price">
-
-                                    <span class="old-price">
+                                <p>
+                                    <span
+                                        style="text-decoration: line-through; color: red;">
                                         ₹249
                                     </span>
 
-                                    <span class="new-price">
+                                    <strong
+                                        style="color: green; font-size: 20px;">
                                         ₹199
-                                    </span>
+                                    </strong>
+                                </p>
 
-                                </div>
-
-                                <p class="small text-danger">
+                                <p class="text-danger">
                                     <i class="bi bi-clock"></i>
                                     Available Today Only
                                 </p>
 
-                                <button class="btn btn-dark w-100">
+                                <!-- Button trigger modal -->
+                                <button type="button"
+                                    class="btn button_color button_hover"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#dessertDeal">
+
                                     <i class="bi bi-cart-plus"></i>
                                     Order Now
+
                                 </button>
 
                             </div>
@@ -512,22 +497,14 @@
 
                     <!-- DEAL 6 -->
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-md-4 pb-4">
 
-                        <div class="card deal-card h-100">
+                        <div class="card">
 
-                            <div class="position-relative">
-
-                                <img
-                                    src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=80"
-                                    class="card-img-top"
-                                    alt="Cold Drink">
-
-                                <span class="discount-badge">
-                                    25% OFF
-                                </span>
-
-                            </div>
+                            <img
+                                src="images/todays_deal/Refreshment Deal.png"
+                                class="card-img-top"
+                                alt="Cold Drink">
 
                             <div class="card-body">
 
@@ -535,37 +512,41 @@
                                     Drinks
                                 </span>
 
-                                <h4 class="card-title mt-2">
+                                <h5 class="card-title mt-2">
                                     Refreshment Deal
-                                </h4>
+                                </h5>
 
-                                <p class="card-text text-muted">
-                                    Choose two refreshing cold
-                                    drinks and
-                                    enjoy your meal with a special
-                                    discount.
+                                <p class="card-text">
+                                    Choose two refreshing cold drinks and
+                                    enjoy your meal with a special discount.
                                 </p>
 
-                                <div class="price">
-
-                                    <span class="old-price">
+                                <p>
+                                    <span
+                                        style="text-decoration: line-through; color: red;">
                                         ₹200
                                     </span>
 
-                                    <span class="new-price">
+                                    <strong
+                                        style="color: green; font-size: 20px;">
                                         ₹150
-                                    </span>
+                                    </strong>
+                                </p>
 
-                                </div>
-
-                                <p class="small text-danger">
+                                <p class="text-danger">
                                     <i class="bi bi-clock"></i>
                                     Available Today Only
                                 </p>
 
-                                <button class="btn btn-dark w-100">
+                                <!-- Button trigger modal -->
+                                <button type="button"
+                                    class="btn button_color button_hover"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#drinkDeal">
+
                                     <i class="bi bi-cart-plus"></i>
                                     Order Now
+
                                 </button>
 
                             </div>
@@ -591,8 +572,7 @@
                 </h2>
 
                 <p>
-                    These special prices are available for a limited
-                    time.
+                    These special prices are available for a limited time.
                 </p>
 
                 <div class="row justify-content-center mt-4">
@@ -602,17 +582,17 @@
                         <div class="countdown-box">
 
                             <div>
-                                <h3>08</h3>
+                                <h3 id="hours">08</h3>
                                 <small>Hours</small>
                             </div>
 
                             <div>
-                                <h3>45</h3>
+                                <h3 id="minutes">45</h3>
                                 <small>Minutes</small>
                             </div>
 
                             <div>
-                                <h3>32</h3>
+                                <h3 id="seconds">32</h3>
                                 <small>Seconds</small>
                             </div>
 
@@ -720,23 +700,27 @@
                             <ul class="list_style">
                                 <li><a
                                         href="https://www.instagram.com/"
-                                        target="_blank">Instagram</a></li>
+                                        target="_blank"><i
+                                            class="bi bi-instagram"></i></a></li>
                                 <li><a
                                         href="https://www.linkedin.com/"
-                                        target="_blank">linkedin</a></li>
+                                        target="_blank"><i
+                                            class="bi bi-linkedin"></i></a></li>
                                 <li><a
                                         href="https://maps.app.goo.gl/TKPCgPG77eALCs3F9"
-                                        target="_blank">Location</a></li>
+                                        target="_blank"><i
+                                            class="bi bi-geo-alt-fill"></i></a></li>
                                 <li><a
                                         href="https://www.facebook.com/"
-                                        target="_blank">Facebook</a></li>
+                                        target="_blank"><i
+                                            class="bi bi-facebook"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
                 <hr>
-                
+
                 <p class="text-center text-dark mb-0">
                     © 2026 Food Court. All Rights Reserved.
                 </p>
@@ -748,5 +732,39 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
             crossorigin="anonymous"></script>
+        <script>
+
+        // Set countdown time
+        let time = (8 * 60 * 60) + (45 * 60) + 32;
+
+        function countdown() {
+
+            let hours = Math.floor(time / 3600);
+
+            let minutes = Math.floor((time % 3600) / 60);
+
+            let seconds = time % 60;
+
+            // Add 0 before single digit numbers
+            document.getElementById("hours").innerHTML = String(hours).padStart(2, "0");
+
+            document.getElementById("minutes").innerHTML =  String(minutes).padStart(2, "0");
+
+            document.getElementById("seconds").innerHTML = String(seconds).padStart(2, "0");
+
+            // Decrease time
+            if (time > 0) {
+                time--;
+            }
+
+        }
+
+        // Run immediately
+        countdown();
+
+        // Run every 1 second
+        setInterval(countdown, 1000);
+
+    </script>
     </body>
 </html>

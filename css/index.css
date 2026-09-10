@@ -25,16 +25,14 @@ body {
 }
 
 .align{
-    display: flex;
-    justify-content: center;
+    display: flex !important;
+    justify-content: center !important;
 }
 
-/* .nav-link:hover{
-    background-color: #fe6901;
-    color: black;
+.border_details{
     border: 2px solid black;
     border-radius: 40px;
-} */
+}
 .nav-item:hover{
     background-color: #fe6901;
     color: black;
@@ -71,11 +69,6 @@ body {
     display: contents;
     text-align: center;
 }
-/* 
-.hf_color{
-    background-color: black !important;
-    color: white !important;
-} */
 
 .heading_design{
     display: flex;
@@ -117,13 +110,36 @@ body {
     border: 2px solid black;
 }
 
+.bi-geo-alt-fill{
+    color: #5F6368;
+}
+
+.bi-facebook{
+    color: #1877F2;
+}
+
+.bi-linkedin{
+    color: #0A66C2;
+}
+
+.bi-instagram{
+    color: #C13584;
+}
+
+.shadows{
+    box-shadow: 3px 4px 4px black;
+}
+
+.drop_shadow{
+    filter: drop-shadow(5px 6px 6px gray);
+}
 /* ================= HERO ================= */
 
 .deal-hero {
     background: linear-gradient(
         135deg,
-        #212529,
-        #343a40
+        rgb(55, 38, 24),
+        rgb(76, 45, 28)
     );
 
     color: white;
